@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node test/validate.mjs
+      - run: node -e "JSON.parse(require('fs').readFileSync('schema.json','utf8')); console.log('schema.json parses')"
