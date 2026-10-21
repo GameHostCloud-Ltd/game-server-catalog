@@ -1,0 +1,474 @@
+[
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "category": "game-server",
+    "family": "minecraft-java",
+    "steamAppId": null,
+    "defaultPort": 25565
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 258550,
+    "defaultPort": 28015
+  },
+  {
+    "id": "cs2",
+    "name": "Counter-Strike 2",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": null,
+    "defaultPort": 27015
+  },
+  {
+    "id": "valheim",
+    "name": "Valheim",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 2456
+  },
+  {
+    "id": "7-days-to-die",
+    "name": "7 Days to Die",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 294420,
+    "defaultPort": 26900
+  },
+  {
+    "id": "ark-survival-evolved",
+    "name": "ARK: Survival Evolved",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 376030,
+    "defaultPort": 7777
+  },
+  {
+    "id": "ark-survival-ascended",
+    "name": "ARK: Survival Ascended",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "terraria",
+    "name": "Terraria",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "palworld",
+    "name": "Palworld",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 8211
+  },
+  {
+    "id": "satisfactory",
+    "name": "Satisfactory",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 1690800,
+    "defaultPort": 7777
+  },
+  {
+    "id": "dayz",
+    "name": "DayZ",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 2302
+  },
+  {
+    "id": "conan-exiles",
+    "name": "Conan Exiles",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "the-forest",
+    "name": "The Forest",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 27016
+  },
+  {
+    "id": "sons-of-the-forest",
+    "name": "Sons of the Forest",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 8766
+  },
+  {
+    "id": "dont-starve-together",
+    "name": "Don't Starve Together",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": 343050,
+    "defaultPort": 10999
+  },
+  {
+    "id": "v-rising",
+    "name": "V Rising",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 9876
+  },
+  {
+    "id": "enshrouded",
+    "name": "Enshrouded",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 15636
+  },
+  {
+    "id": "raft",
+    "name": "Raft",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 27015
+  },
+  {
+    "id": "project-zomboid",
+    "name": "Project Zomboid",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 380870,
+    "defaultPort": 16261
+  },
+  {
+    "id": "scum",
+    "name": "SCUM",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 3792580,
+    "defaultPort": 7040
+  },
+  {
+    "id": "unturned",
+    "name": "Unturned",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 1110390,
+    "defaultPort": 27015
+  },
+  {
+    "id": "eco",
+    "name": "Eco",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 739590,
+    "defaultPort": 3000
+  },
+  {
+    "id": "icarus",
+    "name": "Icarus",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 17777
+  },
+  {
+    "id": "grounded",
+    "name": "Grounded",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 27015
+  },
+  {
+    "id": "csgo-legacy",
+    "name": "CS:GO (Legacy)",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 740,
+    "defaultPort": 27015
+  },
+  {
+    "id": "counter-strike-source",
+    "name": "Counter-Strike: Source",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 232330,
+    "defaultPort": 27015
+  },
+  {
+    "id": "counter-strike-1-6",
+    "name": "Counter-Strike 1.6",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 90,
+    "defaultPort": 27015
+  },
+  {
+    "id": "team-fortress-2",
+    "name": "Team Fortress 2",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 232250,
+    "defaultPort": 27015
+  },
+  {
+    "id": "fivem",
+    "name": "FiveM",
+    "category": "game-server",
+    "family": "direct-download-special",
+    "steamAppId": null,
+    "defaultPort": 30120
+  },
+  {
+    "id": "garrys-mod",
+    "name": "Garry's Mod",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 4020,
+    "defaultPort": 27015
+  },
+  {
+    "id": "insurgency-sandstorm",
+    "name": "Insurgency: Sandstorm",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 27102
+  },
+  {
+    "id": "left-4-dead-2",
+    "name": "Left 4 Dead 2",
+    "category": "game-server",
+    "family": "steamcmd-linux-source",
+    "steamAppId": 222860,
+    "defaultPort": 27015
+  },
+  {
+    "id": "squad",
+    "name": "Squad",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 403240,
+    "defaultPort": 7787
+  },
+  {
+    "id": "arma3",
+    "name": "Arma 3",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 233780,
+    "defaultPort": 2302
+  },
+  {
+    "id": "arma-reforger",
+    "name": "Arma Reforger",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 1874880,
+    "defaultPort": 2001
+  },
+  {
+    "id": "hell-let-loose",
+    "name": "Hell Let Loose",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 7787
+  },
+  {
+    "id": "pavlov-vr",
+    "name": "Pavlov VR",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "space-engineers",
+    "name": "Space Engineers",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 27016
+  },
+  {
+    "id": "factorio",
+    "name": "Factorio",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 34197
+  },
+  {
+    "id": "astroneer",
+    "name": "Astroneer",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": 728470,
+    "defaultPort": 8777
+  },
+  {
+    "id": "stationeers",
+    "name": "Stationeers",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 27500
+  },
+  {
+    "id": "empyrion",
+    "name": "Empyrion",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 30000
+  },
+  {
+    "id": "vintage-story",
+    "name": "Vintage Story",
+    "category": "game-server",
+    "family": "direct-download-special",
+    "steamAppId": null,
+    "defaultPort": 42420
+  },
+  {
+    "id": "core-keeper",
+    "name": "Core Keeper",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 27015
+  },
+  {
+    "id": "creativerse",
+    "name": "Creativerse",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 26900
+  },
+  {
+    "id": "mordhau",
+    "name": "Mordhau",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "chivalry-2",
+    "name": "Chivalry 2",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 7777
+  },
+  {
+    "id": "necesse",
+    "name": "Necesse",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 14159
+  },
+  {
+    "id": "myth-of-empires",
+    "name": "Myth of Empires",
+    "category": "game-server",
+    "family": "steamcmd-windows-generic",
+    "steamAppId": null,
+    "defaultPort": 27015
+  },
+  {
+    "id": "barotrauma",
+    "name": "Barotrauma",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 1026340,
+    "defaultPort": 27015
+  },
+  {
+    "id": "rimworld-together",
+    "name": "RimWorld Together",
+    "category": "mod-service",
+    "family": "direct-download-special",
+    "steamAppId": null,
+    "defaultPort": 25555
+  },
+  {
+    "id": "assetto-corsa",
+    "name": "Assetto Corsa",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 302550,
+    "defaultPort": 9600
+  },
+  {
+    "id": "acc",
+    "name": "ACC",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 9231
+  },
+  {
+    "id": "farming-simulator-25",
+    "name": "Farming Simulator 25",
+    "category": "game-server",
+    "family": "steamcmd-windows-rcon",
+    "steamAppId": null,
+    "defaultPort": 10823
+  },
+  {
+    "id": "stormworks",
+    "name": "Stormworks",
+    "category": "game-server",
+    "family": "steamcmd-linux-generic",
+    "steamAppId": null,
+    "defaultPort": 25564
+  },
+  {
+    "id": "among-us",
+    "name": "Among Us",
+    "category": "game-server",
+    "family": "direct-download-special",
+    "steamAppId": null,
+    "defaultPort": 22023
+  },
+  {
+    "id": "scp-secret-laboratory",
+    "name": "SCP: Secret Laboratory",
+    "category": "game-server",
+    "family": "steamcmd-linux-rcon",
+    "steamAppId": 996560,
+    "defaultPort": 7777
+  },
+  {
+    "id": "vrchat",
+    "name": "VRChat",
+    "category": "non-standard-service",
+    "family": "non-standard-service",
+    "steamAppId": null,
+    "defaultPort": 0
+  },
+  {
+    "id": "discord-bot-hosting",
+    "name": "Discord Bot Hosting",
+    "category": "bot-hosting",
+    "family": "non-standard-service",
+    "steamAppId": null,
+    "defaultPort": 0
+  }
+]
