@@ -32,6 +32,25 @@ Categories: `game-server` · `mod-service` · `non-standard-service` · `bot-hos
 
 Every `id` maps to a public landing page at `https://gamehostcloud.com/games/<id>`.
 
+## Schema & validation
+
+`schema.json` is a JSON Schema (draft 2020-12) describing the catalog contract.
+`test/validate.mjs` validates the file with zero dependencies — CI runs it on every PR:
+
+```bash
+node test/validate.mjs   # games.json OK — 59 entries, 59 unique ids
+```
+
+## Usage
+
+Fetch it straight from GitHub:
+
+```js
+const games = await (await fetch(
+  'https://raw.githubusercontent.com/GameHostCloud-Ltd/game-server-catalog/main/games.json'
+)).json();
+```
+
 ## All titles
 
 | id | name | category | steamAppId | defaultPort |

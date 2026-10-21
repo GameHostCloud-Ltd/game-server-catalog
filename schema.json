@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/GameHostCloud-Ltd/game-server-catalog/schema.json",
+  "title": "Game Server Catalog",
+  "description": "A curated catalog of dedicated game servers. One object per game.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "category", "family", "steamAppId", "defaultPort"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "description": "Stable slug. Also used in gamehostcloud.com/games/<id> URLs."
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Display name."
+      },
+      "category": {
+        "type": "string",
+        "enum": ["game-server", "mod-service", "bot-hosting", "non-standard-service"],
+        "description": "Top-level kind of service."
+      },
+      "family": {
+        "type": "string",
+        "description": "Deployment/runtime family the server belongs to (e.g. steamcmd-linux-source, minecraft-java)."
+      },
+      "steamAppId": {
+        "type": ["integer", "null"],
+        "minimum": 1,
+        "description": "Steam app id of the dedicated server, when one exists."
+      },
+      "defaultPort": {
+        "type": ["integer", "null"],
+        "minimum": 0,
+        "maximum": 65535,
+        "description": "Conventional default game port; 0 = no fixed port."
+      }
+    }
+  }
+}
